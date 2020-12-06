@@ -47,11 +47,12 @@ def main():
             total_AS += 1
             AS_list.append(dst_AS)
             AS_set.add(dst_AS)
+    print(total_AS)
     count=1
     for AS in AS_list:
-        if count<1412:
-            count+=1
-            continue
+        # if count<1412:
+        #     count+=1
+        #     continue
         # if(count%10==0):
         #     print(count)
         print(count)

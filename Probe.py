@@ -2,7 +2,6 @@ import random
 from find_path import path
 
 detect_num=30000
-
 country="Australia"
 country_ASN={
     "Syria":[29386,29256,48065,201550,52209,24814],
